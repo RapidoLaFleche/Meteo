@@ -1,0 +1,115 @@
+* {
+  font-family: "Anta", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+#loc {
+  display: flex;
+}
+
+#totalappspace {
+  display: flex;
+  flex-direction: column;
+  min-width: 550px;
+  max-width: 550px;
+  min-height: 800px;
+  max-height: 800px;
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url("/imgBack.png");
+}
+
+#loc {
+  display: flex;
+  align-items: center;
+}
+
+#locimage {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  background-image: url(carte-des-broches.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+#locimage:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    background-image: url(carte-des-broches_black.png);
+}
+
+#locimage:not(:hover) {
+    transition: transform 0.3s ease-in-out;
+    background-image: url(carte-des-broches.png);
+}
+
+#total_stat {
+  display: flex;
+  border: 1px solid white;
+  border-radius: 20px;
+  max-width: 600px;
+  min-height: 350px;
+}
+
+#day-stat {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.litle-stat {
+  display: flex;
+  justify-content: center;
+  min-width: 110px;
+}
+
+#bigbox {
+  display: flex;
+  justify-content: flex-start;
+  min-height: 280px;
+  margin-bottom: 20px;
+}
+
+#htextinfos {
+  display: flex;
+  flex-direction: column;
+}
+
+#imagespace {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  background-image: url(nuage.png);
+  background-position: center;
+  background-size: 100%;
+}
+
+#imagespace:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+
+#imagespace:not(:hover) {
+  transition: transform 0.5s ease-in-out;
+}
